@@ -1,0 +1,231 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e7e7e7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #031120;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 50%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 0 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #02254b;
+    height: 200px;
+}
+
+.categoria {
+    color: hsl(27, 94%, 37%);
+    padding: 0 0 7px 0;
+}
+
+.tipos p {
+    color: #fff;
+    padding-top: 10px;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    padding: 35px 0 40px 0;
+}
+
+.card {
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 400px;
+    height: 150px;
+    margin: 0 20px 20px 0;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    background: #fff;
+}
+
+.img img {
+    width: 125px;
+    height: 140px;
+}
+
+.conteudo {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f0f0f0;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.conteudo:hover {
+    color: #fff;
+    background-color: #031120;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.preco {
+    padding-top: 12px;
+    color: rgb(51, 145, 13);
+    font-weight: bold;
+}
+
+.valor {
+    font-size: 20px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(#02254b, #02143b, #031120);
+    padding: 30px;
+    margin-top: 25px;
+}
+
+.sobre_nos {
+    color: hsl(27, 94%, 37%);
+    padding-bottom: 5px;
+}
+
+.oqfaz {
+    color: white;
+}
+
+.sobre,
+.saiba_mais {
+    color: white;
+    padding-top: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.lado_total {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    margin-top: 80px;
+}
+
+.lado1 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.siga {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 10px;
+}
+
+.plataforma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 50%;
+}
+
+.plataforma img {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.plataforma img:hover {
+    cursor: pointer;
+    zoom: 1.2;
+    box-sizing: border-box;
+}
+
+.lado2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 25px 0 10px 0;
+}
+
+.texto_contato {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    color: white;
+}
